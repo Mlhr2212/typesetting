@@ -129,6 +129,10 @@ aside li{
   line-height: 25px;
 }
 
+header{
+  background-color: #0066CC;
+}
+
 aside{
   display: block;
   border-right: 10px solid #DDDDDD ;
