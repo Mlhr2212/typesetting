@@ -1,0 +1,149 @@
+/* remove thic comment to add @import font or CSS variables at the top of this file */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  background-color: #F9F9F9;
+  color: #333333;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #DDDDDD ;
+  border-bottom: 5px solid #DDDDDD ;
+}
+
+/* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h1{
+  text-align: center;
+  background-color: #0066CC;
+}
+
+section{
+  text-indent: 1.25rem;
+}
+
+a{
+  color: #0066CC ;
+}
+
+p{
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+
+a:focus {
+  outline: 1px solid #0066CC ;
+  outline-width: 5px;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  background-image: url('external-link-52.png'); /* Replace with the actual icon path */
+  background-size: contain;
+  width: 10px;  /* Adjust icon width */
+  height: 10px; /* Adjust icon height */
+  margin-left: 3px; /* Reduce spacing between text and icon */
+  vertical-align: middle; /* Align with text */
+}
+
+
+
+a:hover{
+  color:#0066CC ;
+  text-decoration: solid;
+}
+
+ul{
+  list-style: none;
+  color: #0066CC ;
+}
+
+li{
+  border-width: 5px;
+  border-color: #0066CC ;
+}
+
+nav a{display: block;
+    text-align: center;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    border:2px solid #0066CC ;
+    border-radius: 5px; 
+    text-decoration: none;
+}
+
+nav a:hover{
+  background-color: #0066CC ;
+  color: #333333;
+}
+
+ol{
+  list-style:lower-alpha;
+}
+
+aside li{
+  list-style:square;
+  line-height: 25px;
+}
+
+aside{
+  display: block;
+  border-right: 10px solid #DDDDDD ;
+}
+
+section ul{
+  color: black;
+  list-style: upper-roman;
+}
+
+aside a{
+  line-height: 40px;
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  size: 20px;
+}
